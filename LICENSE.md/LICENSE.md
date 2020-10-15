@@ -1,4 +1,4 @@
-ModelFactory
+LLE-Sim
 Copyright (c) 2020 Joel Bottin-Noonan
 joelbn@uowmail.edu.au, The University of Wollongong, Australia
 
