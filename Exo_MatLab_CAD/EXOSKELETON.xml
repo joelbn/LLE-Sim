@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="jbn176" on="08/23/19||15:17:01" using="Simscape Multibody Link Version 6.0" from="Pro/Engineer Creo 5.0 - 2018260"/>
+<ModelUnits mass="kg" length="m"/>
+<RootAssembly name="EXOSKELETON" uid="EXOSKELETON_asm" version="247508">
+<AssemblyFile name="EXOSKELETON.asm" type="ProEngineer Assembly"/>
+<InstanceTree>
+<Instance name="EXO_HIP_CONNECTION" uid="40" entityUid="EXO_HIP_CONNECTION_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="UPPER_THIGH_BRACE" uid="41" entityUid="UPPER_THIGH_BRACE_asm" rigid="true">
+<Transform>
+<Rotation>0.96468327771970652 0 -0.26341255415785092 0 0.99999999999999944 0 0.26341255415785098 0 0.9646832777197063</Rotation>
+<Translation>0.014487690478681816 0 -0.05305758027458389</Translation>
+</Transform>
+<Instance name="UPPER_THIGH_BRACE" uid="40" entityUid="UPPER_THIGH_BRACE_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.155 0</Translation>
+</Transform>
+</Instance>
+<Instance name="UPPER_THIGH_BRACE" uid="43" entityUid="UPPER_THIGH_BRACE_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.155 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="LOWER_THIGH_BRACE" uid="47" entityUid="LOWER_THIGH_BRACE_asm" rigid="true">
+<Transform>
+<Rotation>0.96468327771970652 0 -0.26341255415785092 0 0.99999999999999944 0 0.26341255415785098 0 0.9646832777197063</Rotation>
+<Translation>0.048846510863184783 0 -0.17888825517568402</Translation>
+</Transform>
+<Instance name="LOWER_THIGH_BRACE" uid="40" entityUid="LOWER_THIGH_BRACE_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.155 0</Translation>
+</Transform>
+</Instance>
+<Instance name="LOWER_THIGH_BRACE" uid="45" entityUid="LOWER_THIGH_BRACE_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.155 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="THIGH_CONNECTION" uid="48" entityUid="THIGH_CONNECTION_asm" rigid="true">
+<Transform>
+<Rotation>0.99976907446730989 0 -0.021489479723280507 0 0.99999999999999922 0 0.021489479723280507 0 0.99976907446730989</Rotation>
+<Translation>0.060700075800288099 0 -0.2222990026730709</Translation>
+</Transform>
+<Instance name="THIGH_CONNECTION" uid="40" entityUid="THIGH_CONNECTION_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.085000000000000006 0</Translation>
+</Transform>
+</Instance>
+<Instance name="THIGH_CONNECTION" uid="43" entityUid="THIGH_CONNECTION_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.085000000000000006 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="LOWER_TRUNK_BRACE" uid="54" entityUid="LOWER_TRUNK_BRACE_asm" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.08500000000000002 0 0.059999999999999817</Translation>
+</Transform>
+<Instance name="LOWER_TRUNK_BRACE" uid="74" entityUid="LOWER_TRUNK_BRACE_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.070000000000000007 0</Translation>
+</Transform>
+</Instance>
+<Instance name="LOWER_TRUNK_BRACE" uid="79" entityUid="LOWER_TRUNK_BRACE_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.070000000000000007 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="UPPER_TRUNK_BRACE" uid="63" entityUid="UPPER_TRUNK_BRACE_asm" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.08500000000000002 0 0.31600000000000034</Translation>
+</Transform>
+<Instance name="UPPER_TRUNK_BRACE" uid="40" entityUid="UPPER_TRUNK_BRACE_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.070000000000000007 0</Translation>
+</Transform>
+</Instance>
+<Instance name="UPPER_TRUNK_BRACE" uid="47" entityUid="UPPER_TRUNK_BRACE_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.070000000000000007 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="TRUNK_CONNECTION" uid="64" entityUid="TRUNK_CONNECTION_prt">
+<Transform>
+<Rotation>1 0 0 0 0.99999764391454593 -0.0021707522560090466 0 0.0021707522560090466 0.99999764391454593</Rotation>
+<Translation>0.0019499999999999771 -2.1542596578246735e-005 0.43584802378122511</Translation>
+</Transform>
+</Instance>
+<Instance name="UPPER_KNEE_LINK" uid="69" entityUid="UPPER_KNEE_LINK_asm" rigid="true">
+<Transform>
+<Rotation>0.98508943576738139 0 0.17204302816302125 0 1 0 -0.17204302816302125 0 0.98508943576738139</Rotation>
+<Translation>0.054678569814582363 0 -0.25677713292492932</Translation>
+</Transform>
+<Instance name="UPPER_KNEE_LINK" uid="40" entityUid="UPPER_KNEE_LINK_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.14499999999999999 0</Translation>
+</Transform>
+</Instance>
+<Instance name="UPPER_KNEE_LINK" uid="47" entityUid="UPPER_KNEE_LINK_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.14499999999999999 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="LOWER_KNEE_LINK" uid="70" entityUid="LOWER_KNEE_LINK_asm" rigid="true">
+<Transform>
+<Rotation>0.98508943576738106 0 0.17204302816302122 0 0.99999999999999967 0 -0.17204302816302122 0 0.98508943576738106</Rotation>
+<Translation>0.037407452684715237 0 -0.35566864402069864</Translation>
+</Transform>
+<Instance name="LOWER_KNEE_LINK" uid="40" entityUid="LOWER_KNEE_LINK_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.14499999999999999 0</Translation>
+</Transform>
+</Instance>
+<Instance name="LOWER_KNEE_LINK" uid="49" entityUid="LOWER_KNEE_LINK_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.14499999999999999 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="UPPER_SHANK_LINK" uid="71" entityUid="UPPER_SHANK_LINK_asm" rigid="true">
+<Transform>
+<Rotation>0.97111182074889479 0 0.23862487632635065 0 0.99999999999999978 0 -0.23862487632635065 0 0.97111182074889479</Rotation>
+<Translation>0.023034076027587221 0 -0.42413568799876855</Translation>
+</Transform>
+<Instance name="UPPER_SHANK_LINK" uid="41" entityUid="UPPER_SHANK_LINK_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.155 0</Translation>
+</Transform>
+</Instance>
+<Instance name="UPPER_SHANK_LINK" uid="44" entityUid="UPPER_SHANK_LINK_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.155 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="LOWER_SHANK_LINK" uid="72" entityUid="LOWER_SHANK_LINK_asm" rigid="true">
+<Transform>
+<Rotation>0.97111182074889479 0 0.23862487632635071 0 0.99999999999999978 0 -0.23862487632635071 0 0.97111182074889479</Rotation>
+<Translation>-0.00090550660110004164 0 -0.52156061716968383</Translation>
+</Transform>
+<Instance name="LOWER_SHANK_LINK" uid="40" entityUid="LOWER_SHANK_LINK_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.155 0</Translation>
+</Transform>
+</Instance>
+<Instance name="LOWER_SHANK_LINK" uid="47" entityUid="LOWER_SHANK_LINK_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.155 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="SHANK_CONNECTION" uid="73" entityUid="SHANK_CONNECTION_asm" rigid="true">
+<Transform>
+<Rotation>0.89275226142874908 0 0.45054788836909937 0 0.99999999999999989 0 -0.45054788836909937 0 0.89275226142874908</Rotation>
+<Translation>-0.00925737727252233 0 -0.5555495308958952</Translation>
+</Transform>
+<Instance name="SHANK_CONNECTION" uid="49" entityUid="SHANK_CONNECTION_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.085000000000000006 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SHANK_CONNECTION" uid="52" entityUid="SHANK_CONNECTION_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.085000000000000006 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="SHANK_ANKLE_LINK" uid="81" entityUid="SHANK_ANKLE_LINK_asm" rigid="true">
+<Transform>
+<Rotation>0.95642094770726682 0 0.2919913882064572 0 1.0000000000000002 0 -0.29199138820645715 0 0.95642094770726704</Rotation>
+<Translation>-0.016557161977683782 0 -0.57946005458857719</Translation>
+</Transform>
+<Instance name="SHANK_ANKLE_LINK" uid="40" entityUid="SHANK_ANKLE_LINK_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.14499999999999999 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SHANK_ANKLE_LINK" uid="45" entityUid="SHANK_ANKLE_LINK_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.14499999999999999 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="ANKLE_LINK" uid="82" entityUid="ANKLE_LINK_asm" rigid="true">
+<Transform>
+<Rotation>0.95642094770726682 0 0.2919913882064572 0 1.0000000000000002 0 -0.29199138820645715 0 0.95642094770726704</Rotation>
+<Translation>-0.045827015711587843 -6.4171216083985794e-016 -0.67533377682191853</Translation>
+</Transform>
+<Instance name="ANKLE_LINK" uid="41" entityUid="ANKLE_LINK_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.14499999999999999 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ANKLE_LINK" uid="48" entityUid="ANKLE_LINK_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.14499999999999999 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="FOOT_ORTHOSIS" uid="83" entityUid="FOOT_ORTHOSIS_asm" rigid="true">
+<Transform>
+<Rotation>0.96156891242203257 0 0.27456370237798927 0 0.99999999999999978 0 -0.27456370237798927 0 0.96156891242203257</Rotation>
+<Translation>-0.011199807690611383 -8.1756975321700676e-016 -0.75073905823291831</Translation>
+</Transform>
+<Instance name="FOOT_ORTHOSIS_R" uid="40" entityUid="FOOT_ORTHOSIS_R_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.085000000000000006 0</Translation>
+</Transform>
+</Instance>
+<Instance name="FOOT_ORTHOSIS_L" uid="43" entityUid="FOOT_ORTHOSIS_L_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.085000000000000006 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Rigid name="Rigid_40_0">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+</Rigid>
+<Coincident name="Coincident_41_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<Position>0 0.14999999999999999 0</Position>
+<Axis>0 -0.29999999999999982 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>41</Uid>
+</InstancePath>
+<Position>0 -0.16 0.055</Position>
+<Axis>0 0.32000000000000001 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_41_1">
+<ConstraintGeometry geomType="plane">
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>41</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_47_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>41</Uid>
+</InstancePath>
+<Position>0 0 -0.07000000000000009</Position>
+<Axis>0 0 0.14001866578952143</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>47</Uid>
+</InstancePath>
+<Position>0 0 -0.060000000000000053</Position>
+<Axis>0 0 0.20000000000000001</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_47_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>41</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_48_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>47</Uid>
+</InstancePath>
+<Position>0 -0.16 -0.044999999999999998</Position>
+<Axis>0 0.32000000000000001 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>48</Uid>
+</InstancePath>
+<Position>0 -0.14000000000000004 0</Position>
+<Axis>0 0.28000000000000003 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_48_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>48</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Rigid name="Rigid_54_0">
+<InstancePath>
+<Uid>54</Uid>
+</InstancePath>
+</Rigid>
+<Rigid name="Rigid_54_1">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>54</Uid>
+<Uid>79</Uid>
+</InstancePath>
+</Rigid>
+<Rigid name="Rigid_54_2">
+<InstancePath>
+<Uid>54</Uid>
+<Uid>74</Uid>
+</InstancePath>
+</Rigid>
+<Coincident name="Coincident_63_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>54</Uid>
+</InstancePath>
+<Position>0 0 -0.075018665789521252</Position>
+<Axis>0 0 0.30001866578952141</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>63</Uid>
+</InstancePath>
+<Position>0 0 -0.12500000000000003</Position>
+<Axis>0 0 0.25002377716194502</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_63_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>54</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>63</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Rigid name="Rigid_64_0">
+<InstancePath>
+<Uid>63</Uid>
+<Uid>47</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>64</Uid>
+</InstancePath>
+</Rigid>
+<Rigid name="Rigid_64_1">
+<InstancePath>
+<Uid>63</Uid>
+<Uid>40</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>64</Uid>
+</InstancePath>
+</Rigid>
+<Coincident name="Coincident_69_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>48</Uid>
+</InstancePath>
+<Position>0 -0.14000000000000004 0</Position>
+<Axis>0 0.28000000000000003 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>69</Uid>
+</InstancePath>
+<Position>0 -0.14999999999999999 0.035000000000000003</Position>
+<Axis>0 0.29999999999999999 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_69_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>48</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>69</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_70_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>69</Uid>
+</InstancePath>
+<Position>0 0 -0.12</Position>
+<Axis>0 0 0.17001502961799372</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>70</Uid>
+</InstancePath>
+<Position>0 0 -0.050015029617993645</Position>
+<Axis>0 0 0.10001502961799363</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_70_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>69</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>70</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_71_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>70</Uid>
+</InstancePath>
+<Position>0 -0.14999999999999999 -0.035000000000000003</Position>
+<Axis>0 0.29999999999999999 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>71</Uid>
+</InstancePath>
+<Position>0 -0.16 0.035000000000000003</Position>
+<Axis>0 0.32000000000000001 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_71_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>70</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>71</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_72_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>71</Uid>
+</InstancePath>
+<Position>0 0 -0.12</Position>
+<Axis>0 0 0.17001502961799364</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>72</Uid>
+</InstancePath>
+<Position>0 0 -0.050015029617993617</Position>
+<Axis>0 0 0.10001502961799366</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_72_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>71</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>72</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_73_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>72</Uid>
+</InstancePath>
+<Position>0 -0.16 -0.035000000000000003</Position>
+<Axis>0 0.32000000000000001 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>73</Uid>
+</InstancePath>
+<Position>0 -0.13999999999999999 0</Position>
+<Axis>0 0.28000000000000003 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_73_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>72</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>73</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_81_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>73</Uid>
+</InstancePath>
+<Position>0 -0.13999999999999999 0</Position>
+<Axis>0 0.28000000000000003 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>81</Uid>
+</InstancePath>
+<Position>0 -0.14999999999999999 0.025000000000000001</Position>
+<Axis>0 0.29999999999999999 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_81_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>73</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>81</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_82_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>81</Uid>
+</InstancePath>
+<Position>0 0 -0.039999999999999952</Position>
+<Axis>0 0 0.080000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>82</Uid>
+</InstancePath>
+<Position>0 0 -0.014999999999999999</Position>
+<Axis>0 0 0.15500000000000003</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_82_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>81</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>82</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_83_0">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>82</Uid>
+</InstancePath>
+<Position>0 -0.1555 0</Position>
+<Axis>0 0.311 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>83</Uid>
+</InstancePath>
+<Position>-0.053999999999999999 -0.13449999999999995 0.063</Position>
+<Axis>0 0.26900000000000018 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident_83_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>82</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>83</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="UPPER_THIGH_BRACE" uid="UPPER_THIGH_BRACE_asm" version="199">
+<AssemblyFile name="UPPER_THIGH_BRACE.asm" type="ProEngineer Assembly"/>
+</Assembly>
+<Assembly name="LOWER_THIGH_BRACE" uid="LOWER_THIGH_BRACE_asm" version="174">
+<AssemblyFile name="LOWER_THIGH_BRACE.asm" type="ProEngineer Assembly"/>
+</Assembly>
+<Assembly name="THIGH_CONNECTION" uid="THIGH_CONNECTION_asm" version="151">
+<AssemblyFile name="THIGH_CONNECTION.asm" type="ProEngineer Assembly"/>
+</Assembly>
+<Assembly name="LOWER_TRUNK_BRACE" uid="LOWER_TRUNK_BRACE_asm" version="228">
+<AssemblyFile name="LOWER_TRUNK_BRACE.asm" type="ProEngineer Assembly"/>
+</Assembly>
+<Assembly name="UPPER_TRUNK_BRACE" uid="UPPER_TRUNK_BRACE_asm" version="180">
+<AssemblyFile name="UPPER_TRUNK_BRACE.asm" type="ProEngineer Assembly"/>
+</Assembly>
+<Assembly name="UPPER_KNEE_LINK" uid="UPPER_KNEE_LINK_asm" version="190">
+<AssemblyFile name="UPPER_KNEE_LINK.asm" type="ProEngineer Assembly"/>
+</Assembly>
+<Assembly name="LOWER_KNEE_LINK" uid="LOWER_KNEE_LINK_asm" version="200">
+<AssemblyFile name="LOWER_KNEE_LINK.asm" type="ProEngineer Assembly"/>
+</Assembly>
+<Assembly name="UPPER_SHANK_LINK" uid="UPPER_SHANK_LINK_asm" version="230">
+<AssemblyFile name="UPPER_SHANK_LINK.asm" type="ProEngineer Assembly"/>
+</Assembly>
+<Assembly name="LOWER_SHANK_LINK" uid="LOWER_SHANK_LINK_asm" version="177">
+<AssemblyFile name="LOWER_SHANK_LINK.asm" type="ProEngineer Assembly"/>
+</Assembly>
+<Assembly name="SHANK_CONNECTION" uid="SHANK_CONNECTION_asm" version="170">
+<AssemblyFile name="SHANK_CONNECTION.asm" type="ProEngineer Assembly"/>
+</Assembly>
+<Assembly name="SHANK_ANKLE_LINK" uid="SHANK_ANKLE_LINK_asm" version="170">
+<AssemblyFile name="SHANK_ANKLE_LINK.asm" type="ProEngineer Assembly"/>
+</Assembly>
+<Assembly name="ANKLE_LINK" uid="ANKLE_LINK_asm" version="171">
+<AssemblyFile name="ANKLE_LINK.asm" type="ProEngineer Assembly"/>
+</Assembly>
+<Assembly name="FOOT_ORTHOSIS" uid="FOOT_ORTHOSIS_asm" version="160">
+<AssemblyFile name="FOOT_ORTHOSIS.asm" type="ProEngineer Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="ANKLE_LINK" uid="ANKLE_LINK_prt" version="701">
+<PartFile name="ANKLE_LINK.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.096639676980384392</Mass>
+<CenterOfMass>0 0 0.036945746403068497</CenterOfMass>
+<Inertia>0.00015836868470890618 0.00016276000050883811 7.7632011139154975e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ankle_link_prt.step" type="STEP"/>
+</Part>
+<Part name="EXO_HIP_CONNECTION" uid="EXO_HIP_CONNECTION_prt" version="1899">
+<PartFile name="EXO_HIP_CONNECTION.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.66287623344800539</Mass>
+<CenterOfMass>-0.00037432667548470335 0 0.0012923389948269136</CenterOfMass>
+<Inertia>0.0067287127473826805 0.0026656697874138735 0.0090986376804368524 0 -3.2067576705133817e-007 0</Inertia>
+</MassProperties>
+<GeometryFile name="exo_hip_connection_prt.step" type="STEP"/>
+</Part>
+<Part name="FOOT_ORTHOSIS_L" uid="FOOT_ORTHOSIS_L_prt" version="923">
+<PartFile name="FOOT_ORTHOSIS_L.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.10075445189362831</Mass>
+<CenterOfMass>-0.0060335590659663391 0.022294196918478292 0.015048186556231885</CenterOfMass>
+<Inertia>0.00014518766111175087 0.00023190077230217734 0.0002977576186671364 -3.5089452273042167e-005 2.3954806068967967e-005 1.5626761709745181e-005</Inertia>
+</MassProperties>
+<GeometryFile name="foot_orthosis_l_prt.step" type="STEP"/>
+</Part>
+<Part name="FOOT_ORTHOSIS_R" uid="FOOT_ORTHOSIS_R_prt" version="1120">
+<PartFile name="FOOT_ORTHOSIS_R.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.10075445189355303</Mass>
+<CenterOfMass>-0.0060335590549396648 -0.022294196918456324 0.015048186535312681</CenterOfMass>
+<Inertia>0.00014518766094486944 0.00023190077203743886 0.00029775761856916101 3.5089452237795967e-005 2.3954805917921091e-005 -1.562676169118534e-005</Inertia>
+</MassProperties>
+<GeometryFile name="foot_orthosis_r_prt.step" type="STEP"/>
+</Part>
+<Part name="LOWER_KNEE_LINK" uid="LOWER_KNEE_LINK_prt" version="370">
+<PartFile name="LOWER_KNEE_LINK.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.057584501581191459</Mass>
+<CenterOfMass>0 0 -0.001527668958024505</CenterOfMass>
+<Inertia>4.7863181249815997e-005 5.2340745487731256e-005 5.6744309309259997e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="lower_knee_link_prt.step" type="STEP"/>
+</Part>
+<Part name="LOWER_SHANK_LINK" uid="LOWER_SHANK_LINK_prt" version="556">
+<PartFile name="LOWER_SHANK_LINK.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.057584501581191466</Mass>
+<CenterOfMass>0 0 -0.0015276689580244725</CenterOfMass>
+<Inertia>4.7863181249816045e-005 5.2340745487731303e-005 5.6744309309259997e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="lower_shank_link_prt.step" type="STEP"/>
+</Part>
+<Part name="LOWER_THIGH_BRACE" uid="LOWER_THIGH_BRACE_prt" version="588">
+<PartFile name="LOWER_THIGH_BRACE.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.1144945015794999</Mass>
+<CenterOfMass>0 0 0.021066818879601917</CenterOfMass>
+<Inertia>0.00028269670637911214 0.00028952858299254345 8.4691183064225213e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="lower_thigh_brace_prt.step" type="STEP"/>
+</Part>
+<Part name="LOWER_TRUNK_BRACE" uid="LOWER_TRUNK_BRACE_prt" version="610">
+<PartFile name="LOWER_TRUNK_BRACE.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.15785450157951625</Mass>
+<CenterOfMass>0 0 0.04062422888719356</CenterOfMass>
+<Inertia>0.00094796891809071531 0.00093891822904739342 1.1173472402982529e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="lower_trunk_brace_prt.step" type="STEP"/>
+</Part>
+<Part name="SHANK_ANKLE_LINK" uid="SHANK_ANKLE_LINK_prt" version="340">
+<PartFile name="SHANK_ANKLE_LINK.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.045389501579698212</Mass>
+<CenterOfMass>0 0 0.00081929825449464453</CenterOfMass>
+<Inertia>2.4163245511102149e-005 2.7683840960890933e-005 4.4633996427832061e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="shank_ankle_link_prt.step" type="STEP"/>
+</Part>
+<Part name="SHANK_CONNECTION" uid="SHANK_CONNECTION_prt" version="1550">
+<PartFile name="SHANK_CONNECTION.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.016956370986952952</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>2.8927499963906293e-005 2.9359796215912234e-005 5.1346769376834627e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="shank_connection_prt.step" type="STEP"/>
+</Part>
+<Part name="THIGH_CONNECTION" uid="THIGH_CONNECTION_prt" version="2079">
+<PartFile name="THIGH_CONNECTION.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.018082284409958408</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>3.1173986827725263e-005 3.8739556895270915e-005 6.2516262570900118e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="thigh_connection_prt.step" type="STEP"/>
+</Part>
+<Part name="TRUNK_CONNECTION" uid="TRUNK_CONNECTION_prt" version="2797">
+<PartFile name="TRUNK_CONNECTION.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.81703090477954066</Mass>
+<CenterOfMass>1.2326267739756076e-005 -1.1545890354114611e-006 -0.010731699868663245</CenterOfMass>
+<Inertia>0.0050281043638518794 0.0057815967842958504 0.0065633357432693948 -1.2165074728833268e-007 -6.3656713495431304e-005 0</Inertia>
+</MassProperties>
+<GeometryFile name="trunk_connection_prt.step" type="STEP"/>
+</Part>
+<Part name="UPPER_KNEE_LINK" uid="UPPER_KNEE_LINK_prt" version="563">
+<PartFile name="UPPER_KNEE_LINK.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.095524501579664842</Mass>
+<CenterOfMass>0 0 -0.018937863204347618</CenterOfMass>
+<Inertia>0.00017063611723935746 0.00017629930637524458 7.0181391622159368e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="upper_knee_link_prt.step" type="STEP"/>
+</Part>
+<Part name="UPPER_SHANK_LINK" uid="UPPER_SHANK_LINK_prt" version="346">
+<PartFile name="UPPER_SHANK_LINK.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.095524501579664786</Mass>
+<CenterOfMass>0 0 -0.01893786320434768</CenterOfMass>
+<Inertia>0.00017063611723935738 0.0001762993063752445 7.0181391622159326e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="upper_shank_link_prt.step" type="STEP"/>
+</Part>
+<Part name="UPPER_THIGH_BRACE" uid="UPPER_THIGH_BRACE_prt" version="513">
+<PartFile name="UPPER_THIGH_BRACE.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.087394501579311445</Mass>
+<CenterOfMass>0 0 0.0041067811055926617</CenterOfMass>
+<Inertia>0.00013612322903336496 0.00014268410568742069 8.2884516803732429e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="upper_thigh_brace_prt.step" type="STEP"/>
+</Part>
+<Part name="UPPER_TRUNK_BRACE" uid="UPPER_TRUNK_BRACE_prt" version="922">
+<PartFile name="UPPER_TRUNK_BRACE.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.15572607255676624</Mass>
+<CenterOfMass>0 0 0.0086838505149002283</CenterOfMass>
+<Inertia>0.00081030049366196701 0.00079836599535632947 1.503805784825199e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="upper_trunk_brace_prt.step" type="STEP"/>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
